@@ -1,6 +1,6 @@
 // Package service ...
 //
-// Author: go_developer@163.com<张德满>
+// Author: go_developer@163.com<白茶清欢>
 //
 // File:  project.go
 //
@@ -18,7 +18,7 @@ import (
 var (
 	// Project 项目数据实例
 	//
-	// Author : go_developer@163.com<张德满>
+	// Author : go_developer@163.com<白茶清欢>
 	Project *project
 )
 
@@ -39,7 +39,7 @@ type project struct {
 
 //  Init 初始化项目信息 ...
 //
-// Author : go_developer@163.com<张德满>
+// Author : go_developer@163.com<白茶清欢>
 //
 // Date : 2020/10/16 16:15:49
 func (p *project) init() error {
@@ -48,7 +48,7 @@ func (p *project) init() error {
 
 // loadProject 加载项目信息...
 //
-// Author : go_developer@163.com<张德满>
+// Author : go_developer@163.com<白茶清欢>
 //
 // Date : 2020/10/16 16:18:39
 func (p *project) loadProject() error {

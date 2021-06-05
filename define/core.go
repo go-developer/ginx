@@ -1,6 +1,6 @@
 // Package define ...
 //
-// Author: go_developer@163.com<张德满>
+// Author: go_developer@163.com<白茶清欢>
 //
 // File:  core.go
 //
@@ -13,7 +13,7 @@ import "sync"
 
 // Project 定义内存项目的数据结构
 //
-// Author : go_developer@163.com<张德满>
+// Author : go_developer@163.com<白茶清欢>
 //
 // Date : 12:39 下午 2020/10/13
 type Project struct {
@@ -25,7 +25,7 @@ type Project struct {
 
 // Route 定义内存路由的数据结构
 //
-// Author : go_developer@163.com<张德满>
+// Author : go_developer@163.com<白茶清欢>
 //
 // Date : 12:40 下午 2020/10/13
 type Route struct {
@@ -37,7 +37,7 @@ type Route struct {
 
 // BackendAPI 后端真实api的配置
 //
-// Author : go_developer@163.com<张德满>
+// Author : go_developer@163.com<白茶清欢>
 //
 // Date : 12:43 下午 2020/10/13
 type BackendAPI struct {
@@ -49,7 +49,7 @@ type BackendAPI struct {
 
 // Param ...
 //
-// Author : go_developer@163.com<张德满>
+// Author : go_developer@163.com<白茶清欢>
 //
 // Date : 2020/10/16 15:31:23
 type Param struct {
