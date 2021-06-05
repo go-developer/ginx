@@ -15,7 +15,7 @@ CREATE TABLE `ginx_scheme` (
 --- 请求方法信息表 GET/POST 等
 -----------------------------
 CREATE TABLE `ginx_method`(
-  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMME方法 '主键ID',
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键ID',
   `method` VARCHAR(32) NOT NULL DEFAULT '' COMMENT '请求协议',
   `status` INT UNSIGNED NOT NULL DEFAULT 0 COMMENT '状态 0 - 待启用 1 - 可用中 2 - 禁用',
   `create_user_id` bigint(20) UNSIGNED NOT NULL DEFAULT 0 COMMENT '创建人ID',
@@ -27,7 +27,7 @@ CREATE TABLE `ginx_method`(
 ------------
 -- 用户信息表
 ------------
-CREATE TABLE `gnix_user` (
+CREATE TABLE `ginx_user` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键ID',
   `mail` varchar(128) NOT NULL DEFAULT '' COMMENT '邮箱',
   `phone` varchar(16) NOT NULL DEFAULT '' COMMENT '手机',
@@ -62,7 +62,7 @@ CREATE TABLE `ginx_project` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `unqi_flag` (`flag`),
   UNIQUE KEY `unqi_domain` (`domain`),
-  index KEY `idx_create_id` (`create_user_id`)
+  KEY `idx_create_id` (`create_user_id`)
 ) ENGINE = InnoDB AUTO_INCREMENT = 100000 DEFAULT CHARSET = utf8mb4 COMMENT = '项目信息表';
 -------------------
 --- API 信息表
